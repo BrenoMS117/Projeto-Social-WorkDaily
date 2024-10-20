@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background-color: #ffffff;
+    color: #ECF0F1;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #003366;
+    width: 100%;
+    height: 277px;
+}
+
+header h1 {
+    font-size: 64px;
+    font-family:'Montserrat' ;
+    color: #CCCCCC;
+    margin-left:54px;
+}
+
+
+.botaoRegistro button{
+    border: none;
+    border-radius: 14px;
+    width: 144px;
+    height: 44px;
+    font-family: 'Montserrat';
+    background-color: #FFFFFF;
+    font-weight: 700;
+    margin-right: 29px;
+}
+
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navegar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.menu {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    max-width: 1390px;
+    width: 100%;
+    height: 78px;
+    background: #CCCCCC;
+    margin: 45px 0 0 25px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    border-radius: 12px;
+    font-size: 25px; 
+
+}
+nav {
+   display: inline;
+   
+}
+
+nav ul {
+    display: flex;
+    
+    list-style: none;
+    font-family: 'Raleway';
+    font-weight: 600;
+    gap: 75px;
+    margin: 0 auto;
+    
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+}
+
+main {
+    margin: 90px 0 0 74px;
+    font-family: Raleway;
+    color: #003366;
+    font-size: 15px;
+    
+}
+
+main h1{
+    text-align: center;
+}
+
+.historia-sobre{
+    display: flex;
+    font-size: 27px;
+
+}
+
+.historia-sobre img {
+    width: 556px;
+    height: 304px;
+}
+
+
+footer {
+    margin-top: 60px;
+    padding: 20px;
+    border-radius: 39px 39px 0px 0px;
+    opacity: 0px;
+    background-color: #003366;
+}
+
+footer h1 {
+    text-align: left;
+}
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.container3 section {
+    flex: 1;
+}
+
+.content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.container3 ul p {
+    flex: 1;
+}
+
+.location ul li {
+    margin-bottom: 10px;
+}
+
+.container4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid #D9D9D9;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+}
+
+.social h1 {
+    font-size: 40px;
+}
+
+.social img {
+    padding: 35px;
+}
