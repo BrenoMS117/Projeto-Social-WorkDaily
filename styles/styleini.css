@@ -1,34 +1,21 @@
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
-
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
-/* * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} */
 body {
   background-color: #ffffff;
   color: #ecf0f1;
   font-family: Arial, sans-serif;
-  line-height: 1.6;
 }
 
 header {
   background-color: #003366;
   width: 100%;
-  height: 277px;
+  height: 170px;
 }
 
 header h1 {
-  font-size: 64px;
+  font-size: 38px;
   font-family: "Montserrat";
   color: #cccccc;
-  margin-left: 54px;
 }
 
 .botaoRegistro button {
@@ -39,13 +26,13 @@ header h1 {
   font-family: "Montserrat";
   background-color: #ffffff;
   font-weight: 700;
-  margin-right: 29px;
 }
 
 .container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding: 22px 70px 15px;
 }
 
 .navegar {
@@ -58,16 +45,12 @@ header h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-left: 20px;
-  max-width: 1390px;
-  width: 100%;
+  width: 95%;
   height: 78px;
   background: #cccccc;
-
-  margin: 45px 0 0 25px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
   border-radius: 12px;
-  font-size: 25px;
+  font-size: 22px;
 }
 nav {
   display: inline;
@@ -75,7 +58,6 @@ nav {
 
 nav ul {
   display: flex;
-
   list-style: none;
   font-family: "Raleway";
   font-weight: 600;
@@ -89,147 +71,119 @@ a {
 }
 
 main {
-  margin: 90px 0 0 74px;
-
   color: #003366;
   font-size: 15px;
 }
 
+main h1{
+  font-size: 32px;
+  padding: 70px 50px 0;
+}
+
 .container2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
-.container2 section {
-  margin: 50px;
-  padding: 12px;
-  width: 331px;
-  height: 356px;
-  opacity: 0px;
+.container2 div {
+  padding: 30px;
+  width: 300px;
   color: #000000;
   background: #99cc99;
-  flex: 1;
-  min-width: 250px;
-  max-width: 300px;
-
   box-shadow: 0px 10px 7.7px -3px #00000040;
-  font-size: 27px;
-}
-
-.coment1 {
+  font-size: 20px;
+  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  border-radius: 10px;
 }
-
-.coment2 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.coment3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
 .operacao {
+  margin-top: 60px;
   display: flex;
-  gap: 100px;
-  margin-left: 30px;
-}
-
-.operacao section {
-  flex: 1;
+  justify-content: space-around
 }
 
 .tuto {
-  padding: 35px;
-  max-width: 1100px;
-  max-height: 366px;
-  gap: 0px;
-  opacity: 0px;
   color: #000000;
   background: #cccccc;
   box-shadow: 0px 10px 7.7px -3px #00000040;
-  font-size: 30px;
+  font-size: 24px;
+  height: 280px;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  padding-left: 40px;
+  border-radius: 10px;
 }
 
 .tuto h1 {
   color: #003366;
   font-size: 30px;
+  padding: 0;
+  margin: 0;
+  font-weight: bold;
+}
+
+.tuto p {
+  font-size: 22px;
+  padding: 0;
+  margin: 0;
 }
 
 .propaganda {
-  padding: 25px;
-  max-width: 274px;
-  max-height: 366px;
-  gap: 0px;
-  opacity: 0px;
+  height: 280px;
+  width: 300px;
   background: #003366;
   color: #ffffff;
   display: flex;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
-  font-size: 30px;
+  font-size: 28px;
+  gap: 50px;
+  border-radius: 10px;
+}
+
+.propaganda h1{
+  padding: 0;
+  text-align: center;
 }
 
 .propaganda button {
-  margin-top: 70px;
-  font-size: 24px;
-  width: 220px;
-  height: 57px;
+  font-size: 22px;
+  width: 200px;
+  height: 50px;
   border-radius: 19px;
-  opacity: 0px;
-}
-
-.momento {
-  margin-top: 70px;
-  font-size: 25px;
+  font-weight: bold;
 }
 
 .momento h1 {
   text-align: center;
+  font-size: 28px;
 }
 
-.serv1 {
+.servicos-momento{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 30px;
-  margin-left: 80px;
+  gap: 200px;
 }
 
-.serv2 {
+.servicos-momento div{
   display: flex;
-  justify-content: center;
   align-items: center;
-  gap: 30px;
-  margin-left: 80px;
-}
-
-.esq {
-  margin-right: 300px;
-}
-
-.serv1 h2 {
-  flex: 1;
-}
-
-.serv2 h2 {
-  flex: 1;
+  justify-content: flex-start;
+  gap: 50px;
+  width: 450px;
 }
 
 footer {
   margin-top: 60px;
   padding: 20px;
   border-radius: 39px 39px 0px 0px;
-  opacity: 0px;
   background-color: #003366;
 }
 
@@ -272,7 +226,6 @@ footer h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 120px;
 }
 
 .social h1 {
