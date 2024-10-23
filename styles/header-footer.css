@@ -18,6 +18,13 @@ header h1 {
     font-family: "Montserrat";
     background-color: #ffffff;
     font-weight: 700;
+    cursor: pointer;
+    transition:background-color 0.3s;
+
+}
+
+.botaoRegistro :hover{
+    background-color: #cccccc;
 }
 
 .container {
@@ -59,8 +66,13 @@ nav ul {
 }
 
 a {
+    transition: background-color 0.3s;
     color: #000000;
     text-decoration: none;
+}
+
+nav a :hover{
+    color: #003366;
 }
 
 footer {
