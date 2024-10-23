@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-color: #ffffff;
+  color: #ecf0f1;
+  font-family: Arial, sans-serif;
+}
+
+main {
+  color: #003366;
+  font-size: 15px;
+}
+
+main h1{
+  font-size: 32px;
+}
+
+.container-form{
+    display: flex;
+    width: 100%;
+    padding: 70px 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.div-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 20px;
+}
+
+.div-input {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.servico {
+    text-align: center;
+}
+
+.servico textarea{
+    width: 460px;
+    height: 90px;
+}
+
+.div-input label{
+    font-size: 22px;
+}
+
+.div-input input{
+    width: 300px;
+    height: 35px;
+    font-size: 16px;
+}
+
+form button{
+    font-size: 22px;
+    width: 200px;
+    height: 50px;
+    border-radius: 19px;
+    font-weight: bold;
+}

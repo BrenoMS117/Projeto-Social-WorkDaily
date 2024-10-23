@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+body {
+  background-color: #ffffff;
+  color: #ecf0f1;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+
+main {
+  margin: 90px 0 0 74px;
+  font-family: Raleway;
+  color: #003366;
+}
+
+main h1 {
+  text-align: center;
+  font-size: 26px;
+}
+
+.historia-sobre {
+  display: flex;
+  font-size: 24px;
+  text-align: left;
+  gap: 20px;
+  align-items: center;
+}
+
+.historia-sobre img {
+  width: 556px;
+  height: 304px;
+}
