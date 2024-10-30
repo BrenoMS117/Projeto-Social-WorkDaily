@@ -94,6 +94,14 @@ main h1{
   height: 50px;
   border-radius: 19px;
   font-weight: bold;
+  cursor: pointer;
+  border: none;
+}
+.propaganda button:hover{
+  background-color: #cccccc;
+  border: solid 1.5px black;
+
+
 }
 
 .momento h1 {

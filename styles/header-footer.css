@@ -19,12 +19,11 @@ header h1 {
     background-color: #ffffff;
     font-weight: 700;
     cursor: pointer;
-    transition:background-color 0.3s;
-
 }
 
 .botaoRegistro :hover{
     background-color: #cccccc;
+    border: solid 1.5px black;
 }
 
 .container {
